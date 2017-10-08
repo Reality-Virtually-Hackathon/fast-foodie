@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Tip
+  - Optional
+  - Necessary
   - Recipe
+  - Recipes
   layers:
   - Default
   - TransparentFX

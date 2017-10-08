@@ -15,7 +15,7 @@ public class ClickToStartCountDown : MonoBehaviour
 	void Start()
 	{
 		//Find allthe recipes;
-		recipes = GameObject.FindGameObjectsWithTag("Recipe");
+		recipes = GameObject.FindGameObjectsWithTag("Recipes");
 		//Debug.Log("CountDownTime is " + CountDownTime);
 		//Debug.Log(recipes.Length);
 
@@ -25,7 +25,7 @@ public class ClickToStartCountDown : MonoBehaviour
 
 	void Awake()
 	{
-		//trigger = true;
+		trigger = true;
 
 	}
 
